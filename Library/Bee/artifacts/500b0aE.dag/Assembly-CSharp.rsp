@@ -344,6 +344,7 @@
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CameraMovement.cs"
 "Assets/Scripts/CameraShake.cs"
+"Assets/Scripts/Gun.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Rotator.cs"
 -langversion:9.0
