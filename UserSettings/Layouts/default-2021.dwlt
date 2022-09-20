@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 42
+  controlID: 29
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 504.8
     height: 716.4
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 43
+  controlID: 19
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 44
+  controlID: 20
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,22 +318,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\unity\advanceScript\BobbleheadWars-StarterFiles\BobbleheadWars-StarterFiles
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 405d0000
-    m_LastClickedID: 23872
-    m_ExpandedIDs: 00000000285d000000ca9a3bffffff7f
+    m_SelectedIDs: 005f0000
+    m_LastClickedID: 24320
+    m_ExpandedIDs: 00000000e65e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000285d0000
+    m_ExpandedIDs: 00000000e65e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +389,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000925e0000
+    m_ExpandedInstanceIDs: c6230000925e0000fa5f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,9 +491,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: cef9ffff
-      m_LastClickedID: -1586
-      m_ExpandedIDs: 5cf8ffffa0f8ffffa4f8ffffacf8ffffb0f8ffffbcf8ffffc0f8fffff0f8ffff18f9ffff3cf9ffff60f9ffff6cf9ffff70f9ffff78f9ffff80f9ffff88f9ffff90f9ffffa0f9ffffa4f9ffffb4f9ffffb8f9ffffc0f9ffffc8f9ffffccf9ffffcef9fffff2f9ffff02faffff1afaffff26faffff28faffff38fbffffe2580000
+      m_SelectedIDs: eaf6ffff
+      m_LastClickedID: -2326
+      m_ExpandedIDs: 38fbffffe2580000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -743,9 +743,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.399934, y: 16.000368, z: 9.252477}
+    m_Target: {x: 1.6599998, y: 22.14, z: -54.48}
     speed: 2
-    m_Value: {x: -5.399934, y: 16.000368, z: 9.252477}
+    m_Value: {x: 1.6599998, y: 22.14, z: -54.48}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -771,7 +771,7 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 5, y: 5}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -792,13 +792,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.24203461, y: 0.74895006, z: -0.3640013, w: 0.4979953}
+    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0.24203424, y: 0.74894893, z: -0.36400074, w: 0.4979945}
+    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_Size:
-    m_Target: 5.4959636
+    m_Target: 10.477722
     speed: 2
-    m_Value: 5.4959636
+    m_Value: 10.477722
   m_Ortho:
     m_Target: 1
     speed: 2
