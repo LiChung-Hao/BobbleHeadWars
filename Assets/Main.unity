@@ -947,7 +947,7 @@ GameObject:
   - component: {fileID: 1123018856}
   - component: {fileID: 1123018858}
   - component: {fileID: 1123018857}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: SpaceMarine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -996,7 +996,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 11.8
-  m_Radius: 2.5
+  m_Radius: 5.17
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
