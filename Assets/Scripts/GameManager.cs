@@ -19,9 +19,9 @@ public class GameManager : MonoBehaviour
     private int aliensOnScreen = 0;
     private float generatedSpawnTime = 0;
     private float currentSpawnTime = 0;
-    private bool spawnedUpgrade = false;
+    public static bool spawnedUpgrade = false;
     private float actualUpgradeTime = 0;
-    private float currentUpgradeTime = 0;
+    public static float currentUpgradeTime = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
         if (currentUpgradeTime > actualUpgradeTime)
         {
             // 1
-            if (!spawnedUpgrade)
+            if (!Gun.isUpgraded && !spawnedUpgrade)
             {
                 // 2
                 int randomNumber = Random.Range(0, spawnPoints.Length - 1);
@@ -53,6 +53,7 @@ public class GameManager : MonoBehaviour
                 spawnedUpgrade = true;
 
                 SoundManager.Instance.PlayOneShot(SoundManager.Instance.powerUpAppear);
+                //currentUpgradeTime = 0;
             }
         }
 

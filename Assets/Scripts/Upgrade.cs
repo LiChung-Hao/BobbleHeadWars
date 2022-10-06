@@ -7,8 +7,10 @@ public class Upgrade : MonoBehaviour
     public Gun gun;
     void OnTriggerEnter(Collider other)
     {
+        GameManager.spawnedUpgrade = false;
         gun.UpgradeGun();
         Destroy(gameObject);
         SoundManager.Instance.PlayOneShot(SoundManager.Instance.powerUpPickup);
+        
     }
 }

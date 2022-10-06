@@ -7,7 +7,7 @@ public class Gun : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform launchPosition;
 
-    public bool isUpgraded;
+    public static bool isUpgraded;
     public float upgradeTime = 10.0f;
     private float currentTime;
 
@@ -37,6 +37,7 @@ public class Gun : MonoBehaviour
         if (currentTime > upgradeTime && isUpgraded == true)
         {
             isUpgraded = false;
+            GameManager.currentUpgradeTime = 0;
         }
     }
 
