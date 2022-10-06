@@ -32,19 +32,14 @@ public class Gun : MonoBehaviour
         {
             CancelInvoke("fireBullet");
         }
+
+        currentTime += Time.deltaTime;
+        if (currentTime > upgradeTime && isUpgraded == true)
+        {
+            isUpgraded = false;
+        }
     }
 
-    //void fireBullet()
-    //{
-    //    // 1
-    //    GameObject bullet = Instantiate(bulletPrefab) as GameObject;
-    //    // 2
-    //    bullet.transform.position = launchPosition.position;
-    //    // 3
-    //    bullet.GetComponent<Rigidbody>().velocity =
-    //    transform.parent.forward * 100;
-    //    audioSource.PlayOneShot(SoundManager.Instance.gunFire);
-    //}
 
     void fireBullet()
     {
