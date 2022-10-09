@@ -25,18 +25,19 @@ public class Alien : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (target != null)
-        {
-            navigationTime += Time.deltaTime;
-            if (navigationTime > navigationUpdate)
-            {
-                agent.destination = target.position;
-                navigationTime = 0;
-            }
-        }
         if (isAlive)
         {
-            //...
+                if (target != null)
+            {
+                navigationTime += Time.deltaTime;
+                if (navigationTime > navigationUpdate)
+                {
+                    agent.destination = target.position;
+                    navigationTime = 0;
+                }
+            }
+
+           
         }
 
     }
@@ -53,9 +54,10 @@ public class Alien : MonoBehaviour
     {
         isAlive = false;
         head.GetComponent<Animator>().enabled = false;
+        head.GetComponent<SphereCollider>().enabled = true;
         head.isKinematic = false;
         head.useGravity = true;
-        head.GetComponent<SphereCollider>().enabled = true;
+        
         head.gameObject.transform.parent = null;
         head.velocity = new Vector3(0, 26.0f, 3.0f);
 
