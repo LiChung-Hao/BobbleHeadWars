@@ -346,6 +346,7 @@
 "Assets/Scripts/ArenaWall.cs"
 "Assets/Scripts/CameraMovement.cs"
 "Assets/Scripts/CameraShake.cs"
+"Assets/Scripts/DeathParticles.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/PlayerController.cs"

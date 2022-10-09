@@ -2169,6 +2169,7 @@ MonoBehaviour:
   upgradePrefab: {fileID: 105092, guid: 941d6224549424c91b1cf112b44ec0cb, type: 3}
   gun: {fileID: 1568421093}
   upgradeMaxTimeSpawn: 7.5
+  deathFloor: {fileID: 72519536}
 --- !u!4 &1841525230
 Transform:
   m_ObjectHideFlags: 0
