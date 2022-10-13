@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public float[] hitForce;
     public float timeBetweenHits = 2.5f;
     public Rigidbody marineBody;
-
+    public float jumpforce = 10f;
     private bool isDead = false;
     private bool isHit = false;
     private float timeSinceHit = 0;
@@ -34,7 +34,10 @@ public class PlayerController : MonoBehaviour
             Input.GetAxis("Horizontal"),
             0, Input.GetAxis("Vertical"));
         characterController.SimpleMove(moveDirection * moveSpeed);
-
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            this.transform.position=new Vector3(this.transform.position.x, this.transform.position.y+5, this.transform.position.z);
+        }
         if (isHit)
         {
             timeSinceHit += Time.deltaTime;
